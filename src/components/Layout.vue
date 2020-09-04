@@ -1,16 +1,19 @@
 <template>
   <div id="grid">
     <server-list />
+    <server-name />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import ServerList from './ServerList.vue'
+import ServerName from './ServerName.vue'
 
 @Component({
   components: {
-    ServerList
+    ServerList,
+    ServerName
   }
 })
 export default class Layout extends Vue {}
