@@ -6,6 +6,7 @@ import SettingsIcon from 'vue-material-design-icons/CogOutline'
 import AddCategoryIcon from 'vue-material-design-icons/Plus'
 import MicrophoneIcon from 'vue-material-design-icons/Microphone'
 import HeadphoneIcon from 'vue-material-design-icons/Headphones'
+import AtIcon from 'vue-material-design-icons/At'
 
 Vue.component('expand-icon', ExpandIcon)
 Vue.component('hashtag-icon', HashTagIcon)
@@ -14,3 +15,4 @@ Vue.component('settings-icon', SettingsIcon)
 Vue.component('add-category-icon', AddCategoryIcon)
 Vue.component('microphone-icon', MicrophoneIcon)
 Vue.component('headphone-icon', HeadphoneIcon)
+Vue.component('at-icon', AtIcon)

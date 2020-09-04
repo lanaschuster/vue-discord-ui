@@ -31,9 +31,9 @@ export default class ChannelButton extends Vue {
 <style scoped lang="scss">
 .channel-button {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   cursor: pointer;
   padding: 5px 3px;
   border-radius: 5px;
