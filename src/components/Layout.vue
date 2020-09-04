@@ -2,6 +2,7 @@
   <div id="grid">
     <server-list />
     <server-name />
+    <channel-list />
   </div>
 </template>
 
@@ -9,11 +10,13 @@
 import { Component, Vue } from 'vue-property-decorator'
 import ServerList from './ServerList.vue'
 import ServerName from './ServerName.vue'
+import ChannelList from './ChannelList.vue'
 
 @Component({
   components: {
     ServerList,
-    ServerName
+    ServerName,
+    ChannelList
   }
 })
 export default class Layout extends Vue {}
