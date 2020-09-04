@@ -3,6 +3,7 @@
     <server-list />
     <server-name />
     <channel-list />
+    <user-info />
   </div>
 </template>
 
@@ -11,12 +12,14 @@ import { Component, Vue } from 'vue-property-decorator'
 import ServerList from './ServerList.vue'
 import ServerName from './ServerName.vue'
 import ChannelList from './ChannelList.vue'
+import UserInfo from './UserInfo.vue'
 
 @Component({
   components: {
     ServerList,
     ServerName,
-    ChannelList
+    ChannelList,
+    UserInfo
   }
 })
 export default class Layout extends Vue {}
