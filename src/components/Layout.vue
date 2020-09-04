@@ -4,6 +4,7 @@
     <server-name />
     <channel-list />
     <user-info />
+    <channel-info channelName="geral" description="Canal aberto para conversas" />
   </div>
 </template>
 
@@ -13,13 +14,15 @@ import ServerList from './ServerList.vue'
 import ServerName from './ServerName.vue'
 import ChannelList from './ChannelList.vue'
 import UserInfo from './UserInfo.vue'
+import ChannelInfo from './ChannelInfo.vue'
 
 @Component({
   components: {
     ServerList,
     ServerName,
     ChannelList,
-    UserInfo
+    UserInfo,
+    ChannelInfo
   }
 })
 export default class Layout extends Vue {}
