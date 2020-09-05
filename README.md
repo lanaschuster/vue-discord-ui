@@ -1,6 +1,8 @@
 # vue-discord-ui
 Simples clone da interface do Discord com Vue.js e CSS Grid.
 
+![Alt text](/screenshot.png)
+
 ## Próximos passos
 Implementar algumas funcionalidades básicas e demais lógicas de negócio. Desejo construir o backend em Node.js (talvez utilizando Nest.js).
 Gostaria também de refazer este projeto utilizando Buefy.
