@@ -1,11 +1,12 @@
 <template>
   <div id="grid">
     <server-list />
-    <server-name />
+    <server-name serverName="only 4 friends server" />
     <channel-list />
     <user-info />
     <channel-info channelName="geral" description="Canal aberto para conversas" />
     <channel-data />
+    <user-list />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import ChannelList from './ChannelList.vue'
 import UserInfo from './UserInfo.vue'
 import ChannelInfo from './ChannelInfo.vue'
 import ChannelData from './ChannelData.vue'
+import UserList from './UserList.vue'
 
 @Component({
   components: {
@@ -25,7 +27,8 @@ import ChannelData from './ChannelData.vue'
     ChannelList,
     UserInfo,
     ChannelInfo,
-    ChannelData
+    ChannelData,
+    UserList
   }
 })
 export default class Layout extends Vue {}

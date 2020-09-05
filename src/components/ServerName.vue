@@ -1,16 +1,22 @@
 <template>
   <div class="container">
-    <div class="title">Server Name</div>
+    <div class="title">{{ serverName }}</div>
     <div class="icon">
       <expand-icon :size="28" />
     </div>
   </div>
 </template>
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue, Prop } from 'vue-property-decorator'
 
 @Component
-export default class ServerName extends Vue {}
+export default class ServerName extends Vue {
+  @Prop({
+    type: String,
+    required: true
+  })
+  private readonly serverName!: string
+}
 </script>
 <style scoped>
 .container {
